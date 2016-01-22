@@ -1,0 +1,14 @@
+PODS:
+  - PodCheck (0.1.0)
+
+DEPENDENCIES:
+  - PodCheck (from `../`)
+
+EXTERNAL SOURCES:
+  PodCheck:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PodCheck: 5db38d7e74d1b16b5fc5432871fb77040d553faf
+
+COCOAPODS: 0.39.0
