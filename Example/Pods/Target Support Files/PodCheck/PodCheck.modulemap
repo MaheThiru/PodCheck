@@ -1,0 +1,6 @@
+framework module PodCheck {
+  umbrella header "PodCheck-umbrella.h"
+
+  export *
+  module * { export * }
+}
