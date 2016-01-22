@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/thiruvadisamy_p/Documents/LearningProjects/ObjC/CocoaPods/PodGitHub/Example/build/Debug-iphonesimulator/PodCheck.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PodCheck-Swift.h",
+          'external-contents': "/Users/thiruvadisamy_p/Documents/LearningProjects/ObjC/CocoaPods/PodGitHub/Example/build/Debug-iphonesimulator/PodCheck.framework/Headers/PodCheck-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PodCheck-umbrella.h",
+          'external-contents': "/Users/thiruvadisamy_p/Documents/LearningProjects/ObjC/CocoaPods/PodGitHub/Example/Pods/Target Support Files/PodCheck/PodCheck-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/thiruvadisamy_p/Documents/LearningProjects/ObjC/CocoaPods/PodGitHub/Example/build/Debug-iphonesimulator/PodCheck.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/thiruvadisamy_p/Documents/LearningProjects/ObjC/CocoaPods/PodGitHub/Example/build/Pods.build/Debug-iphonesimulator/PodCheck.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
