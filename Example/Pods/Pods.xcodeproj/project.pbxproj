@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		114D9D475DB6DB6AC4E61D61104319BE /* Pods-PodCheck_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C802A94BDB56452D24BD8D4F69E711FC /* Pods-PodCheck_Tests-dummy.m */; };
 		1803E2839E3967771C4D2BCDF840FA55 /* PodCheck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 275DE535D835C5609F3FEC73CB9C0FCE /* PodCheck-dummy.m */; };
+		186F34F21C5605050041ECB0 /* lipPodCheckLibrary_Universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 186F34F11C5605050041ECB0 /* lipPodCheckLibrary_Universal.a */; };
 		188134981C5270D800DC6BA0 /* InitialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 188134961C5270D800DC6BA0 /* InitialViewController.h */; };
 		188134991C5270D800DC6BA0 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188134971C5270D800DC6BA0 /* InitialViewController.m */; };
 		38B86A5936DCD18468EF795DC52526E5 /* Pods-PodCheck_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F22CEFDDFF5C770736E46B89E045D5 /* Pods-PodCheck_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 		0DB4BCC242CB4A4F547E9329BDE5E75E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		112C4777F849DA82358CFB6F4FCA5511 /* Pods_PodCheck_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodCheck_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		127B2FDA1C64D51368D9A0B456D86663 /* Pods-PodCheck_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodCheck_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		186F34F11C5605050041ECB0 /* lipPodCheckLibrary_Universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = lipPodCheckLibrary_Universal.a; sourceTree = "<group>"; };
 		188134961C5270D800DC6BA0 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
 		188134971C5270D800DC6BA0 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 		275DE535D835C5609F3FEC73CB9C0FCE /* PodCheck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PodCheck-dummy.m"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186F34F21C5605050041ECB0 /* lipPodCheckLibrary_Universal.a in Frameworks */,
 				C57718A2502F3324A8C2572DEA64A29F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +159,7 @@
 		ACEF0B430B1352EE3927549C5D6A2B0E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				186F34F11C5605050041ECB0 /* lipPodCheckLibrary_Universal.a */,
 				0DB4BCC242CB4A4F547E9329BDE5E75E /* ReplaceMe.m */,
 				188134961C5270D800DC6BA0 /* InitialViewController.h */,
 				188134971C5270D800DC6BA0 /* InitialViewController.m */,
